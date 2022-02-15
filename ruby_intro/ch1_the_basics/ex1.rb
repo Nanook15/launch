@@ -1,6 +1,11 @@
-first_name = "dave"
+# "<Firstname> <Lastname>"
 
-last_name = "rogers"
+first_name = "Bob"
 
-puts first_name + ' ' + last_name
+last_name = "Saget"
+
+
+puts first_name + " " + last_name			# string concatenaton
+
+puts "Hi my name is #{first_name} #{last_name}"		# string interpolation
 
